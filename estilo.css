@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+* {
+    font-family: Ravi Prakash;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 400;
+
+}
+ :root {
+ --primary: #ffffff;
+ --secundary: #000000;
+ }
+ header {
+     display: flex;
+     border-bottom: 0.5rem solid var(--secundary);
+     background-color: var(--secundary);
+    
+ }
+
+header picture img {
+height: 4rem;
+}
+header nav{
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+header ul li {
+    margin: 01rem;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 25px;
+
+}
+
+main{
+    min-height: 80vh;
+}
+
+main picture img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+footer {
+    background-color: var(--secundary);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+footer > div {
+    display: flex;
+    align-items: center;
+}
+
+footer div a img{
+  margin: 5px;
+}
+
+main > section.auth {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main > section.auth > h1 {
+    color: var(--secundary);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  
+  }
+
+  main > section.auth > form {
+    background-color:#000000;
+    border: 0.2rem solid var(--secundary);
+    border-radius: 1rem;
+    padding: 1.5rem;
+
+  }
+
+  main > section.auth > form > label {
+    color: var(--primary);
+    font-size: 20px;
+
+  }
+
+  main > section.auth > form > div {
+    background-color:#ffffff;
+    border: 0.15rem solid var(--secundary);
+    border-radius: 0.6rem;
+    display: flex;
+    margin: 0.5rem 0;
+  }
+  main > section.auth > form > div > img {
+    height: 2.5rem;
+    padding: 0.3rem;
+  }
+
+  main > section.auth > form > div > input {
+    width: 100%; 
+    color: var(--secundary);
+    font-weight: 500;
+  }
+
+  main > section.auth > form > p {
+
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+  }
+
+  main > section.auth > form > p > a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+  }
+
+  main > section.auth > form > p > button {
+    background-color: var(white);
+    color: var(--secundary);
+    padding: 0.2rem;
+    border: 0;
+    border-radius: 0.6rem;
+    width: 4rem;
+    margin-left: 0.5rem;
+    font-size: 15px;
+  }
