@@ -88,7 +88,7 @@ main > section.auth {
     font-weight: 500;
     margin-bottom: 1rem;
     font-size: 3rem;
-  
+ 
   }
 
   main > section.auth > form {
@@ -96,7 +96,12 @@ main > section.auth {
     border: 0.2rem solid var(--secundary);
     border-radius: 1rem;
     padding: 1.5rem;
+  }
 
+  main > section.auth > form {
+    background-color:#000000;
+    border: 0.2rem solid var(--secundary);
+    border-radius: 1rem;
   }
 
   main > section.auth > form > label {
